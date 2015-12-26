@@ -1,7 +1,6 @@
-//recursive directory walk that 
+//recursive directory walker
 //alternative to using apache filefilter
-//interface.  too difficult to install
-//apache.commons in processing
+// too difficult to install apache.commons in processing
 
 import java.util.*;
 
@@ -11,6 +10,7 @@ File examplesRoot=new File("/Applications/Processing.app/");
 Set <File> uDirs = new TreeSet <File>();
 
 //preserves the existing architecture since this is what
+//sketchbrowser uses
 Set <File> uniqueExampleDirs=new TreeSet <File>();
 Set <File> uniqueLibraryDirs=new TreeSet <File>();
 
